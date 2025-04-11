@@ -57,6 +57,3 @@ jobs:
           platforms: linux/amd64,linux/arm64
           tags: |
             sqaisar/wandb-operator:latest
-            sqaisar/wandb-operator:${{ steps.release.outputs.new_release_version }}
-            sqaisar/wandb-operator:${{ steps.release.outputs.new_release_major_version }}.${{ steps.release.outputs.new_release_minor_version }}
-            sqaisar/wandb-operator:${{ steps.release.outputs.new_release_major_version }}
